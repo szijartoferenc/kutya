@@ -1,0 +1,231 @@
+* {
+    font-family: "montserrat";
+    
+}
+
+body {
+    background: #f1fbff;
+    
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+/* *********Lapozó ************** */
+
+.carousel-item {
+    height: 600px;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+} 
+
+.carousel-caption h5 {
+    font-size: 45px;
+    /* color: indigo; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    /* color:aqua;
+    text-shadow: 4px black; */
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0, 0, 0.7);
+    z-index: 1;
+}
+
+
+
+
+/* *********Navigáció ************** */
+
+.navbar {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color:#000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+       
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #000;
+}
+
+
+.navbar-light .navbar-brand .navbar-link {
+    color: #000;
+
+}
+
+.w-100 {
+    height: 600px;
+}
+
+.dogs .card-body i {
+ font-size: 50px;
+}
+
+.support .card-body{
+    font-size: 20px;
+}
+
+
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0,0, 0, 0.17);
+}
+
+.support .card {
+    box-shadow: 15px 15px 40px rgba(0,0, 0, 0.17);
+}
+
+button, a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+/* *********Responsive CSS tablet ************** */
+@media only screen and (min-width: 768px) and (max-width:991px){
+    
+   .carousel-caption {
+        bottom: 370px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+   }  
+   .card {
+    margin-bottom: 30px;
+   }
+   .img-area img {
+    width: 100%;
+   }   
+}
+
+/* *********Responsive CSS phone ************** */
+@media only screen and (max-width: 767px){
+    .navbar-nav {
+        text-align: center;
+    }
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+    .about-text {
+        padding-top: 50px;
+
+    }
+    .card {
+    margin-bottom: 30px;
+    }
+    
+}
+
+/* *********Kutyafajták ************** */
+
+.jobbra{
+    float:  right;
+   max-width:300px;
+    width: auto;
+    margin-left: 25px;
+}
+.jobbra img{
+    max-width:300px;
+    width: auto;
+}
+.balra{
+    float:  left;
+    max-width:300px;
+    width: auto;
+    margin-right: 25px;
+}
+.balra img{
+    max-width:300px;
+    width: auto;
+}
+.kozepre{
+    text-align: center;
+}
+form img{   
+    
+    max-height:400px;
+    height: auto; 
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+.row > img{
+    height: 100%;
+}
+
+/* *********Érdekességek ************** */
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-100 {
+    min-height: 100vh;
+    z-index: 2;
+    position: relative;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+p{
+    text-align: justify;
+}
+
+.row > img{
+    height: 100%;
+}
+
+
+/* *********Galéria ************** */
+
+
+
+
+
+
